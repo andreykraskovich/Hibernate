@@ -15,7 +15,7 @@ import java.util.List;
 public class Main {
     private static final String URL = "jdbc:mysql://localhost:3306/skillbox";
     private static final String NAME = "root";
-    private static final String PASSWORD = "123kapacb";
+    private static final String PASSWORD = "";
     private static final String SQL =
             "SELECT course_name, COUNT(*) / (MAX(month(subscription_date)) - MIN(month(subscription_date)) + 1) AS avg "
                     + "FROM PurchaseList "
